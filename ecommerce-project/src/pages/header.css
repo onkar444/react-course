@@ -103,7 +103,7 @@
   justify-content: end;
 }
 
-.header .orders-link {
+.header .order-link {
   color: white;
 
   display: flex;
@@ -112,7 +112,7 @@
   padding-right: 13px;
 }
 
-.header .orders-text {
+.header .order-text {
   display: block;
   font-size: 15px;
   font-weight: 700;
