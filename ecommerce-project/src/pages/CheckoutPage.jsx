@@ -1,7 +1,7 @@
 import './checkout-header.css'
 import './CheckoutPage.css'
 
-export function CheckoutPage() {
+export function CheckoutPage({ cart }) {
     return (
         <>
             <title>Checkout</title>
@@ -17,7 +17,7 @@ export function CheckoutPage() {
 
                     <div className="checkout-header-middle-section">
                         Checkout (<a className="return-to-home-link"
-                            href="/">3 items</a>)
+                            href="/">{cart.length} items</a>)
                     </div>
 
                     <div className="checkout-header-right-section">
